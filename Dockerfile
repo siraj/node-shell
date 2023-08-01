@@ -9,5 +9,5 @@ RUN npm install -g mocha
 
 COPY . .
 
-CMD [ "bash" ]
+CMD [ "mocha" ]
 
